@@ -107,7 +107,7 @@ header {
 .card {
     width: 280px;
     height: 280px;
-    background: #367347;
+    background: #333;
     border-radius: 32px;
     padding: 3px;
     position: relative;
@@ -138,9 +138,7 @@ header {
     height: calc(100% - 6px);
     top: 3px;
     left: 3px;
-    border-radius: 29px;
     z-index: 1;
-    border: 0px solid #333;
     overflow: hidden;
     transition: all 0.5s ease-in-out 0.2s, z-index 0.5s ease-in-out 0.2s;
   }
@@ -148,8 +146,8 @@ header {
   .card .profile-pic img {
     -o-object-fit: cover;
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     -o-object-position: 0px 0px;
     object-position: 0px 0px;
     transition: all 0.5s ease-in-out 0s;
@@ -160,7 +158,7 @@ header {
     bottom: 3px;
     left: 3px;
     right: 3px;
-    background: #333;
+    background: #367347;
     top: 80%;
     border-radius: 29px;
     z-index: 2;
@@ -250,10 +248,7 @@ header {
     aspect-ratio: 1;
     top: 10px;
     left: 10px;
-    border-radius: 50%;
     z-index: 3;
-    border: 7px solid #C9F2D5;
-    box-shadow: rgba(96, 75, 74, 0.1882352941) 0px 5px 5px 0px;
     transition: all 0.5s ease-in-out, z-index 0.5s ease-in-out 0.1s;
   }
   
