@@ -805,3 +805,25 @@ hr {
   width: 250px;
 }
 }
+
+.trailer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.video-item {
+  overflow: hidden;
+  text-align: center;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo para los videos */
+video {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain; /* Evita recortes y mantiene la relación de aspecto */
+}
